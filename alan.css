@@ -1,84 +1,98 @@
-ul {
+ nav{
+    margin-left: 73%;
+    display: block;
+}
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: SlateGray;
 }
-li {
+ li {
     float: left;
 }
-li a {
-    display: block;
-    color: white;
+ li a {
+    color: blue;
     text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
+    text-decoration: underline;
     background-position: right;
 }
-li a:hover {
-    background-color: DodgerBlue ;
-}
-h1{
+ h1{
+    padding:25px;
     text-align: center;
-    color: rgb(49, 16, 16);
+    color: blue;
     text-decoration: underline;
+    font-size: 40px;
 }
-img{
-    width: 300px;
+ img{
+    border-radius: 60%;
+    width: 250px;
     height: 370px;
-    padding: 2px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.centermain {
+ .centermain {
     margin: auto;
-    width: 90%;
-    border: 1px solid white;
-    padding: 0px;
+    width: 700px;
+    border: 1px solid cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-#EarlyLife{
+ #EarlyLife,#Career,#PersonalLife,#InterestingFacts{
     text-align: center;
-    color: FireBrick ;
+    color: blue ;
+    text-decoration: underline; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
-#Career{
+ div p{
+    margin: auto;
+    width: 770px;
+    border: 1px solid cyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #Honours{
     text-align: center;
-    color: FireBrick ;
+    color: red ;
+    text-decoration: underline;
+    font-size: 30px;
 }
-#PersonalLife{
-    text-align: center;
-    color: FireBrick ;
+ .bright{
+    color:red;
 }
-#Honours{
-    text-align: center;
-    color: FireBrick ;
-}
-.bright{
-    text-align: center;
-}
-.bright a:nth-child(odd){
-    padding:2px;
-    background-color: Peru;
+ .bright a:nth-child(odd){
+    padding:7px;
+    background-color: CadetBlue ;
     text-decoration: none;
     color: white;
    }
-.bright a:nth-child(even){   
-   padding:2px;
+ .bright a:nth-child(even){   
+   padding:7px;
    text-decoration: none;
-   background-color: green ;
+   background-color: rgb(255, 94, 0)  ;
    color: white;
 }
-#InterestingFacts{
-    text-align: center;
-    color: FireBrick ;
-}
-.interesting{
-    text-align: center;
-}
-.interesting ol{
+ ol {
     margin: auto;
-    width: 45%;
-    border: 1px solid white;
-    padding: 0px;
+    width:750px;
+    height:165px;
+    border: 1px solid cyan;
+    font: 22px 'Great Vibes', Helvetica, sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+ ol li{
+    width: -webkit-fill-available;
+}
+ .interesting div {
+    text-align: center;
+}
+ .interesting h3 {
+    color: blue;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+ body{
+    background-color: cyan;
 }
