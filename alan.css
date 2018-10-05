@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: SlateGray;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    background-position: right;
+}
+li a:hover {
+    background-color: DodgerBlue ;
+}
+h1{
+    text-align: center;
+    color: rgb(49, 16, 16);
+    text-decoration: underline;
+}
+img{
+    width: 300px;
+    height: 370px;
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centermain {
+    margin: auto;
+    width: 90%;
+    border: 1px solid white;
+    padding: 0px;
+}
+#EarlyLife{
+    text-align: center;
+    color: FireBrick ;
+}
+#Career{
+    text-align: center;
+    color: FireBrick ;
+}
+#PersonalLife{
+    text-align: center;
+    color: FireBrick ;
+}
+#Honours{
+    text-align: center;
+    color: FireBrick ;
+}
+.bright{
+    text-align: center;
+}
+.bright a:nth-child(odd){
+    padding:2px;
+    background-color: Peru;
+    text-decoration: none;
+    color: white;
+   }
+.bright a:nth-child(even){   
+   padding:2px;
+   text-decoration: none;
+   background-color: green ;
+   color: white;
+}
+#InterestingFacts{
+    text-align: center;
+    color: FireBrick ;
+}
+.interesting{
+    text-align: center;
+}
+.interesting ol{
+    margin: auto;
+    width: 45%;
+    border: 1px solid white;
+    padding: 0px;
+}
